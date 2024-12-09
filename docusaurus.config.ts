@@ -101,9 +101,13 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Hướng dẫn",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://eplus.dev",
+          label: "ePlus.DEV",
+          position: "left",
+        },
         {
           href: "https://github.com/hoangsvit/an-booking-docs",
           label: "GitHub",
