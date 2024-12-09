@@ -63,7 +63,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
@@ -132,6 +132,16 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    zoom: {
+      selector: ".markdown :not(em) > img",
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: "rgb(255, 255, 255)",
+          dark: "rgb(50, 50, 50)",
+        },
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
