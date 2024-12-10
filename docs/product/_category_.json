@@ -1,6 +1,7 @@
 {
   "label": "Product",
   "position": 2,
+  "collapsed": false,
   "link": {
     "title": "Sản Phẩm",
     "type": "generated-index",

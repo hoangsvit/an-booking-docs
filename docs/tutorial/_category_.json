@@ -1,0 +1,10 @@
+{
+  "label": "Tutorial",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "title": "Hướng dẫn",
+    "type": "generated-index",
+    "description": "Hướng dẫn quản lý và sử dụng các tính năng của hệ thống"
+  }
+}
